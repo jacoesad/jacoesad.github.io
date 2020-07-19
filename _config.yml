@@ -18,3 +18,7 @@ kramdown:
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
+
+# github
+github:
+  is_project_page: true
