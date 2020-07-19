@@ -5,7 +5,16 @@ title: Jacoe's Blog
 SEOTitle: 郭聪的博客 | Jacoe's Blog
 description: "To Be Continued..."
 
+# Build settings
+paginate: 10
+
 # Markdown
 markdown: kramdown
 kramdown:
-  input: GFM  
+  input: GFM
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
