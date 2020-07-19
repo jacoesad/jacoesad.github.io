@@ -1,1 +1,11 @@
 theme: jekyll-theme-cayman
+
+# Site settings
+title: Jacoe's Blog
+SEOTitle: 郭聪的博客 | Jacoe's Blog
+description: "To Be Continued..."
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM  
